@@ -104,3 +104,82 @@ svg {
     transform: translate(-50%, 0);
     white-space: nowrap;
 }
+
+
+body, div, section, h1, h2, p {
+    margin: 0px;
+    padding: 0px;
+}
+
+* {
+    /* changer de police*/
+    font-family: "Gotham Medium", Helvetica, Arial, sans-serif;
+
+}
+
+.page{
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;    
+}
+
+
+#model3{
+    background-image: url("images/model3.jpg");
+
+}
+
+#modelS{
+    background-image: url("images/modelS.jpg");
+
+    
+}
+
+
+#powerwall{
+    background-image: url("images/solarPanels.jpg");
+    
+}
+
+h1{
+    font-size: 40px;
+    font-weight: 100;
+    padding-top: 100px;
+}
+
+h2{
+    font-size: 18px;
+    font-weight: 100;
+    color: gray;
+    margin-top: 10px;
+}
+
+a{
+    font-size: 12px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    text-decoration: none;
+    
+}
+
+.btn-config{
+    background-color: #171a20;
+    color: white;
+}
+
+.btn-vehicules{
+    background-color: white;
+    color: #171a20;
+
+}
+
+.btn-config, .btn-vehicules{
+    opacity: 0.75;
+    padding: 10px 20px; 
+    margin: 0px 10px;
+    border: none;
+    border-radius: 50px;
+    
+}
+
